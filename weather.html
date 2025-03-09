@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <form class="search-form">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span>
+                <label for="search"></label>
+                <input type="text" id="searchs" placeholder="Search Your city...">
+            </span>
+            <button type="submit">Search</button>
+        </form>
+        <br/>
+        <div class="container-2">
+            <h1 class="weather-city">city Name</h1>   
+            <p class="date">date</p> 
+            <div class="weather-icon">Icon </div>
+            <p class="weather-temp">673649</p>
+            <div class="max-min">
+                <p class="mintemp"></p>
+                <p class="maxtemp"></p>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="line-1">
+                <div class="hi">
+                    <i class="fa-solid fa-temperature-full" id="one"></i>
+                    <div class="two">
+                        <p>Feels Like</p>
+                        <p class="weather-feel">23&#176</p>
+                    </div>
+                </div>
+                <div class="hi">
+                    <i class="fa-solid fa-droplet" id="third"></i>
+                    <div class="two">
+                        <p>Humidity</p>
+                        <p class="weather-humud">25&#176</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line-2">
+                <div class="hi">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="two">
+                        <p>Wind</p>
+                        <p class="weather-wind">23&#176</p>
+                    </div>
+                </div>
+                <div class="hi">
+                    <i class="fa-brands fa-wpressr"></i>
+                    <div class="two">
+                        <p>Pressure</p>
+                        <p class="weather-pressure">2.3Pa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="x.js"></script>    
+</body>
+</html>
